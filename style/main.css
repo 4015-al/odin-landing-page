@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  margin: 0;
+  padding: 0 15vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #1F2937;
+  display: flex;
+  padding: .5em 15vw 1em 15vw;
+  margin: 0 -15vw;
+  flex-wrap: wrap;
+  /* overflow: hidden; */
+  /* position: fixed; */
+  /* Position the navbar at the top of the page */
+  top: 0;
+}
+
+header .logo a {
+  color: #f9faf8;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  flex: 1 0 auto;
+  text-decoration: none;
+}
+
+header nav ul {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0.5em;
+}
+
+header nav li {
+  flex: auto;
+  display: inline;
+  padding-left: 1rem;
+}
+
+header nav a {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+header .logo a:hover {
+  text-decoration: none;
+}
+
+header a:hover {
+  color: white;
+  text-decoration: underline;
+}
