@@ -4,26 +4,29 @@
 }
 
 .main-container {
-  margin: 0;
   padding: 0 15vw;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  padding: 0;
+  margin: 0 -15vw 0 -15vw;
+  width: 100%;
 }
 
 header {
   background-color: #1F2937;
   display: flex;
-  padding: .5em 15vw 1em 15vw;
-  margin: 0 -15vw;
+  padding: 0em 15vw .5em 15vw;
   flex-wrap: wrap;
-  /* overflow: hidden; */
-  /* position: fixed; */
-  /* Position the navbar at the top of the page */
-  top: 0;
 }
 
 header .logo a {
   color: #f9faf8;
-  font-size: 24px;
+  font-size: 1.5em;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   flex: 1 0 auto;
@@ -44,21 +47,28 @@ header nav ul {
 header nav li {
   flex: auto;
   display: inline;
-  padding-left: 1rem;
+  padding-left: 1em;
 }
 
 header nav a {
-  font-size: 18px;
+  font-size: 1.125em;
   color: #e5e7eb;
   font-weight: 400;
-  text-decoration: none;
-}
-
-header .logo a:hover {
   text-decoration: none;
 }
 
 header a:hover {
   color: white;
   text-decoration: underline;
+}
+
+.content-container {
+  margin-top: 4em;
+  z-index: -1;
+}
+
+@media screen and (max-width: 480px) {
+  .content-container {
+    margin-top: 6em;
+  }
 }
