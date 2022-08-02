@@ -152,3 +152,27 @@ footer {
   height: auto;
 }
 /* /Hero */
+
+
+/* Section 2 */
+#section-quote {
+  margin: 0 -15vw ;
+  padding: 2em 20vw;
+
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+.quote {
+  font-size: 2.25em;
+  font-style: italic;
+}
+
+.quote-source {
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: right;
+  margin-top: .5em;
+}
+
+/* /Section 2 */
