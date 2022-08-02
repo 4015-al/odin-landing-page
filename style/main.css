@@ -52,7 +52,7 @@ header nav li {
 }
 
 header nav a {
-  font-size: 1.125em;
+  font-size: 18px;
   color: #e5e7eb;
   font-weight: 400;
   text-decoration: none;
@@ -64,15 +64,15 @@ header a:hover {
 }
 
 .content-container {
-  margin-top: 4em;
   z-index: -1;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .content-container {
     margin-top: 6em;
   }
 }
+*/
 /* /Header */
 
 /* Footer */
@@ -86,3 +86,53 @@ footer {
   font-weight: 200;
 }
 /* /Footer */
+
+/* Hero */
+.hero-container {
+  background-color: #1F2937;
+  color: #e5e7eb;
+  margin: 0 -18vw ;
+  padding: 6em 18vw 4em 18vw;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero>*{
+  width: 32vw;
+  /* text-align: center; */
+  flex: 1 .5 240px;
+}
+
+.hero-text {
+  padding-right: 2em;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 1em 0;
+}
+
+.hero-image {
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* /Hero */
