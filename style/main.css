@@ -9,6 +9,7 @@
   position: relative;
 }
 
+/* Header */
 .header-container {
   position: fixed;
   top: 0;
@@ -72,3 +73,16 @@ header a:hover {
     margin-top: 6em;
   }
 }
+/* /Header */
+
+/* Footer */
+footer {
+  background-color: #1F2937;
+  color: #e5e7eb;
+  text-align: center;
+  margin-top: 1em;
+  padding: 2em 0;
+  font-size: smaller;
+  font-weight: 200;
+}
+/* /Footer */
